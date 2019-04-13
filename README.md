@@ -1,14 +1,24 @@
 # Image's Object Detection
 ## Abstract
-The application uses TensorFlow Object Detection API and Flask Python to create an application for image detection. User input image and the object detection algorithm will return the objects in the image. All the images and objects will be saved into the database. The application also detect objects from stream video, and capture the stream video with its object. 
+The application uses TensorFlow Object Detection API and Flask Python to create an application for image detection. User input image and the object detection algorithm will return the objects in the image. All the images and objects will be saved into the database. The application also detect objects from stream video, and capture the stream video with its object.
 
 ## Video Overview
 https://www.loom.com/share/b38373419963477faaa9f4d3b8eb0335
 
-## Logical Architecture
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Funtionals Requirements
+	The application will implement user registration module, login module, and object detection module. 
+	The application separate presentation layer, business layer and database layer. 
+	The application separates the view (jinja2 templates) and the controllers. 
+	The application uses TensorFlow Object Detection API to detect image’s objects.
+	The application use relational database MySQL. 
+	The application is deployed on Flask server and localhost. 
 
+
+## Logical Solution Design
+The solution divides the application to Controller (Python site) and View (Jinja2 templates). The server side includes a Flask server and TensorFlow Object Detection API.
+
+![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/logical.png)
 ## Physical Architecture
 
 What things you need to install the software and how to install them
