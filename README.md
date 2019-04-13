@@ -43,7 +43,7 @@ A brief overview of the general approach and the main libraries that were levera
 2. Image Detect Module
 3. Video Detect Module
 
-### Installing
+## Installing
 
 
 
