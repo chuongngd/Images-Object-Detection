@@ -29,6 +29,6 @@ The images after detection will be redrawn and all of the objects in the image w
     ]
   }
 ## Sequence Diagram
-![alt tag]https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/sequencedetectimage.png
+![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/sequencedetectimage.png)
 ## Flowchart
-![alt tag]https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/detectimageflow.png
+![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/detectimageflow.png)
