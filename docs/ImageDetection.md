@@ -32,3 +32,5 @@ The images after detection will be redrawn and all of the objects in the image w
 ![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/sequencedetectimage.png)
 ## Flowchart
 ![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/detectimageflow.png)
+## Example of a detected image
+![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/green-pearlescent-wrap-san-diego.jpeg)
