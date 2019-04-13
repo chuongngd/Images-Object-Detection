@@ -37,7 +37,7 @@ An overview of the flow of the website.
 ![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/sitemap.png)
 
 ## Technical Design
-A brief overview of the general approach and the main libraries that were leveraged can be found here [a link](https://github.com/chuongngd/Images-Object-Detection/blob/master/docs/Technical%20Design.md)
+A brief overview of the general approach and the main libraries that were leveraged can be found [here](https://github.com/chuongngd/Images-Object-Detection/blob/master/docs/Technical%20Design.md)
 ## Funtionalities 
 
 
