@@ -39,7 +39,7 @@ An overview of the flow of the website.
 ## Technical Design
 A brief overview of the general approach and the main libraries that were leveraged can be found [here](https://github.com/chuongngd/Images-Object-Detection/blob/master/docs/Technical%20Design.md)
 ## Modules
-1. Login Registration Module
+1. [Login and Registration](https://github.com/chuongngd/Images-Object-Detection/blob/master/docs/Login%20and%20Registration.md)
 2. Image Detect Module
 3. Video Detect Module
 
