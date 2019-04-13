@@ -25,13 +25,19 @@ The Flask server, TensorFlow Object Detection API, and MySQL database are hosted
 ## Component Design
 ![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/component.png)
 
+## Deployment Diagram
+![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/deployment.png)
+
 ## Database
+A high-level view of the database, showing how the tables relate to each other and what rows there are in each table.
 ![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/ER.png)
 
 ## Sitemap
+An overview of the flow of the website.
 ![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/sitemap.png)
-## Technical Design
 
+## Technical Design
+A brief overview of the general approach and the main libraries that were leveraged can be found here
 ## Funtionalities 
 
 
