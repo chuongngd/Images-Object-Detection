@@ -5,7 +5,6 @@ The application uses TensorFlow Object Detection API and Flask Python to create 
 ## Video Overview
 https://www.loom.com/share/b38373419963477faaa9f4d3b8eb0335
 
-
 ## Funtionals Requirements
 	The application will implement user registration module, login module, and object detection module. 
 	The application separate presentation layer, business layer and database layer. 
@@ -20,13 +19,17 @@ The solution divides the application to Controller (Python site) and View (Jinja
 
 ![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/logical.png)
 ## Physical Architecture
+The Flask server, TensorFlow Object Detection API, and MySQL database are hosted and demo on localhost (Windows OS CPU 2.2GHZ x 8GB GPU x 16 GB RAM x 16 GB Storage). 
+![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/physical.png)
 
-What things you need to install the software and how to install them
+## Component Design
+![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/component.png)
 
 ## Database
+![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/ER.png)
 
 ## Sitemap
-
+![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/sitemap.png)
 ## Technical Design
 
 ## Funtionalities 
