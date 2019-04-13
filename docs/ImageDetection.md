@@ -3,6 +3,7 @@ User inputs the image through the web application.
 The Flask server will call the Object Detection API to detect the image and return the list of objects in the image
 The Object Detection API will extract object name, location, the accuracy of the objects in the image and return JSON data type.
 The images after detection will be redrawn and all of the objects in the image will be marked by a bounding box with object name and accuracy percentage.
+Object Detection API can be found [here](https://github.com/tensorflow/models/tree/master/research/object_detection)
 ## Example of JSON data type of an image
 {
       "type" : "object",
