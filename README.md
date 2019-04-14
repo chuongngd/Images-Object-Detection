@@ -70,7 +70,19 @@ Increase the dataset that can detect more object's category. <br>
 * [Python](https://www.python.org/) - The programming language use for the project
 
 ## References
-[Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
+
+1.	Redmon, J., Divvala, S., Girshick, R., & Farhadi, A. You Only Look One: Unified, Real-Time Object Detection. University of Washington, Allen Institute of AI, Facebook AI Research. Retrieved November 2, 2018, from https://arxiv.org/pdf/1506.02640.pdf <br/>
+2.	Hui, J. (2018, Mar 17). Real-time Object Detection with YOLO, YOLOv2, and now YOLOv3. Retrieved from https://medium.com/@jonathan_hui/real-time-object-detection-with-yolo-yolov2-28b1b93e2088 <br/>
+3.	Tran, D. (2017, Jul 28). How to train your own Object Detector with TensorFlow’s Object Detection API. Retrieved from https://towardsdatascience.com/how-to-train-your-own-object-detector-with-tensorflows-object-detector-api-bec72ecfe1d9 <br/>
+4.	Hard, C. (2017, Dec 3). Computer Vision on the Web with WebRTC and TensorFlow. Retrieved from https://webrtchacks.com/webrtc-cv-tensorflow/ <br/>
+5.	Deploy a Flask Application on an Azure Virtual Machine. Retrieved from http://leifengblog.net/blog/deploy-flask-applications-on-azure-vps/ <br/>
+6.	TensorFlow project. https://github.com/tensorflow <br/>
+7.	The PASCAL Visual Object Classes Homepage. Retrieved from http://host.robots.ox.ac.uk/pascal/VOC/ <br/>
+8.	https://www.tensorflow.org/ <br/>
+9.	https://www.tensorflow.org/tutorials/ <br/>
+10.	https://opensource.google.com/projects/tensorflow <br/>
+11. [Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
+
 
 
 ## Authors
