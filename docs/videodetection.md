@@ -6,9 +6,9 @@ The Object Detection API will extract object name, location, the accuracy of the
 The video frame after detection will be redrawn and all of the objects in the video frame will be marked by a bounding box with object name and accuracy percentage.
 ## This function describe how to capture the video frame and detect each frame, then display back on the web browser
 
-def detect_video():<br/>
-   > ret = True <br/>
-   > while(ret): <br/>
+>>def detect_video():<br/>
+   >> ret = True <br/>
+   >> while(ret): <br/>
    >>     cap = cv2.VideoCapture(0) <br/>
    >>     ret,image_np = cap.read() <br/>
    >>     output_dict = run_inference_for_single_image(image_np, detection_graph) <br/>
