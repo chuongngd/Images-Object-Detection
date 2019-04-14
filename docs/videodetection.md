@@ -13,12 +13,12 @@ def detect_video():<br/>
    >>     ret,image_np = cap.read() <br/>
    >>     output_dict = run_inference_for_single_image(image_np, detection_graph) <br/>
    >>     vis_util.visualize_boxes_and_labels_on_image_array(image_np,output_dict['detection_boxes'],output_dict['detection_classes'],
-   >>>                                                         output_dict['detection_scores'],category_index,
-   >>>                                                         instance_masks=output_dict.get('detection_masks'),
-   >>>                                                         use_normalized_coordinates=True,line_thickness=8) <br/>
+   >>                                                         output_dict['detection_scores'],category_index,
+   >>                                                         instance_masks=output_dict.get('detection_masks'),
+   >>                                                         use_normalized_coordinates=True,line_thickness=8) <br/>
    >>     ret,jpeg = cv2.imencode('.jpg',image_np) <br/>
    >>     yield (b'--frame\r\n'
-   >>>             b'Content-Type: image/jpeg\r\n\r\n' + jpeg.tobytes() + b'\r\n\r\n') <br/>
+   >>             b'Content-Type: image/jpeg\r\n\r\n' + jpeg.tobytes() + b'\r\n\r\n') <br/>
    >>     if cv2.waitKey(1) & 0xFF == ord('q'): <br/>
    >>         cv2.destroyAllWindows() <br/>
    >>         cap.release() <br/>
