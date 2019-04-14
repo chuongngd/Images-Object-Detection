@@ -3,7 +3,7 @@
 The application uses TensorFlow Object Detection API and Flask Python to create an application for image detection. User input image and the object detection algorithm will return the objects in the image. All the images and objects will be saved into the database. The application also detect objects from stream video, and capture the stream video with its object.
 
 ## Video Overview
-https://www.loom.com/share/b38373419963477faaa9f4d3b8eb0335
+https://www.loom.com/share/5ade6e77f982440a9356c3e12457c612
 
 ## Funtionals Requirements
 - The application will implement user registration module, login module, and object detection module. <br/>
