@@ -6,12 +6,12 @@ The application uses TensorFlow Object Detection API and Flask Python to create 
 https://www.loom.com/share/b38373419963477faaa9f4d3b8eb0335
 
 ## Funtionals Requirements
-The application will implement user registration module, login module, and object detection module. <br/>
-The application separate presentation layer, business layer and database layer. <br/>
-The application separates the view (jinja2 templates) and the controllers. <br/>
-The application uses TensorFlow Object Detection API to detect image’s objects. <br/>
-The application use relational database MySQL. <br/>
-The application is deployed on Flask server and localhost. 
+- The application will implement user registration module, login module, and object detection module. <br/>
+- The application separate presentation layer, business layer and database layer. <br/>
+- The application separates the view (jinja2 templates) and the controllers. <br/>
+- The application uses TensorFlow Object Detection API to detect image’s objects. <br/>
+- The application use relational database MySQL. <br/>
+- The application is deployed on Flask server and localhost. 
 
 
 ## Logical Solution Design
