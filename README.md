@@ -65,9 +65,9 @@ Increase the dataset that can detect more object's category. <br>
 
 * [Flask](http://flask.pocoo.org/) - The web framework used
 * [Ananconda](https://www.anaconda.com/distribution/) - The distribution to support TensorFlow and Python packages
-* [TensorFlow] (https://www.tensorflow.org/) - The open-source software library supports machine learning
-* [MySQL] (https://www.mysql.com/) - The open-source relational database management system supports for store database in the project
-* [Python] (https://www.python.org/) - The programming language use for the project
+* [TensorFlow](https://www.tensorflow.org/) - The open-source software library supports machine learning
+* [MySQL](https://www.mysql.com/) - The open-source relational database management system supports for store database in the project
+* [Python](https://www.python.org/) - The programming language use for the project
 
 ## References
 [Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
