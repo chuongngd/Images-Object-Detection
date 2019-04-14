@@ -4,7 +4,7 @@ The computer's camera can replace by any ip camera that can connect to the local
 The Flask server will call the Object Detection API to detect the video frame and return the result as an image.
 The Object Detection API will extract object name, location, the accuracy of the objects in the video frame and return JSON data type.
 The video frame after detection will be redrawn and all of the objects in the video frame will be marked by a bounding box with object name and accuracy percentage.
-## This function describe how to capture the video frame and detect each frame, then display back on the web browser
+### This function describe how to capture the video frame and detect each frame, then display back on the web browser
 
 def detect_video():<br/>
    > ret = True <br/>
