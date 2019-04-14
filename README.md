@@ -6,11 +6,11 @@ The application uses TensorFlow Object Detection API and Flask Python to create 
 https://www.loom.com/share/b38373419963477faaa9f4d3b8eb0335
 
 ## Funtionals Requirements
-The application will implement user registration module, login module, and object detection module. 
-The application separate presentation layer, business layer and database layer. 
-The application separates the view (jinja2 templates) and the controllers. 
-The application uses TensorFlow Object Detection API to detect image’s objects.
-The application use relational database MySQL. 
+The application will implement user registration module, login module, and object detection module. <br/>
+The application separate presentation layer, business layer and database layer. <br/>
+The application separates the view (jinja2 templates) and the controllers. <br/>
+The application uses TensorFlow Object Detection API to detect image’s objects. <br/>
+The application use relational database MySQL. <br/>
 The application is deployed on Flask server and localhost. 
 
 
@@ -38,41 +38,43 @@ An overview of the flow of the website.
 
 ## Technical Design
 A brief overview of the general approach and the main libraries that were leveraged can be found [here](https://github.com/chuongngd/Images-Object-Detection/blob/master/docs/Technical%20Design.md)
+## UML Class Diagram
+A brief overview of class and functions of the application 
+![alt tag](https://github.com/chuongngd/Images-Object-Detection/blob/master/pictures/uml.jpg)
 ## Modules
 1. [Login and Registration](https://github.com/chuongngd/Images-Object-Detection/blob/master/docs/Login%20and%20Registration.md)
-2. Image Detect Module
-3. Video Detect Module
+2. [Image Detect Module](https://github.com/chuongngd/Images-Object-Detection/blob/master/docs/ImageDetection.md)
+3. [Video Detect Module](https://github.com/chuongngd/Images-Object-Detection/blob/master/docs/videodetection.md)
 
 ## Installing
-
-
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
+Because the application haven't been deployed on cloud. To installing and testing the application on localhost, user needs to install TensorFlow environment, MySQL, Flask and Python 3.6
 
 ## Apply on live system
 
-Add additional notes about how to deploy this on a live system
+This application can be applied in security monitoring, traffic tracking, or counting products in manufactury. <br/>
+For example, an officer is looking for a stolen car on the street. If there are system cameras on the street, the officer
+can search the suspect easier and tracking it. 
 
 ## Conclusions
-
+Image processing is very important in every aspect of life. Detection algorithm, dataset for images, support libraries, etc. are still reaserching and developing. In this project scope, to apply it in real life, there are still limits that needs to develope. 
 ## Future Ideas
-
+Deploy on cloud. <br/>
+Running Object Detection on cloud machine learning that can increase the performance. <br/>
+Increase the dataset that can detect more object's category. <br>
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Flask](http://flask.pocoo.org/) - The web framework used
+* [Ananconda](https://www.anaconda.com/distribution/) - The distribution to support TensorFlow and Python packages
+* [TensorFlow](https://www.tensorflow.org/) - The open-source software library supports machine learning
+* [MySQL](https://www.mysql.com/) - The open-source relational database management system supports for store database in the project
+* [Python](https://www.python.org/) - The programming language use for the project
 
 ## References
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+[Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Chuong Nguyen** 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
