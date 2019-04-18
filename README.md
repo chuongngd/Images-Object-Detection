@@ -5,7 +5,7 @@ The application uses TensorFlow Object Detection API and Flask Python to create 
 ## Video Overview
 https://www.loom.com/share/5ade6e77f982440a9356c3e12457c612
 
-## Funtionals Requirements
+## Functionals Requirements
 - The application will implement user registration module, login module, and object detection module. <br/>
 - The application separate presentation layer, business layer and database layer. <br/>
 - The application separates the view (jinja2 templates) and the controllers. <br/>
